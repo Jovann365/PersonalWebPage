@@ -1,0 +1,286 @@
+body {
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+
+}
+
+header > h1 {
+    color: #032B43;
+    font-family: sans-serif;
+    margin-left: 75px;
+    font-weight: bolder;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 50px;
+}
+
+header > div > a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+header > div > a:nth-of-type(1):hover{
+    color: white;
+    background-color: rgb(221, 0, 0);
+    border-radius: 10px;
+}
+
+header > div > a:nth-of-type(1){
+    color: rgb(221, 0, 0);
+    background-color: white;
+    border: 3px solid rgb(221, 0, 0);
+    border-radius: 10px;
+}
+
+header > div > a:nth-of-type(2):hover{
+    color: white;
+    background-color: #FFBA08;
+    border-radius: 10px;
+}
+
+header > div > a:nth-of-type(2){
+    color: #FFBA08;
+    background-color: white;
+    border: 3px solid #FFBA08;
+    border-radius: 10px;
+}
+
+header > div > a:nth-of-type(3):hover{
+    color: white;
+    background-color: #3F88C5;
+    border-radius: 10px;
+}
+
+header > div > a:nth-of-type(3){
+    color: #3F88C5;
+    background-color: white;
+    border: 3px solid #3F88C5;
+    border-radius: 10px;
+}
+
+header > div > a:nth-of-type(4):hover{
+    color: white;
+    background-color: #136F63;
+    border-radius: 10px;
+}
+
+header > div > a:nth-of-type(4){
+    color: #136F63;
+    background-color: white;
+    border: 3px solid #136F63;
+    border-radius: 10px;
+}
+
+.b.podnaslov{
+    color: white;
+    background-color: rgba(211, 0, 0, 0.8);
+    padding: 5px;
+    text-align: center;
+    margin-top: 0;
+    position: sticky;
+    top: 0px;
+}
+
+.o.podnaslov {
+    color: white;
+    background-color: rgba(255, 186, 8, 0.8);
+    padding: 5px;
+    text-align: center;
+    margin-top: 0;
+    position: sticky;
+    top: 0px;
+}
+
+.p.podnaslov {
+    color: white;
+    background-color: rgba(63, 136, 197, 0.8);
+    padding: 5px;
+    text-align: center;
+    margin-top: 0;
+    position: sticky;
+    top: 0px;
+}
+
+.k.podnaslov {
+    color: white;
+    background-color: rgba(19, 111, 99, 0.8);
+    padding: 5px;
+    text-align: center;
+    margin-top: 0;
+    position: sticky;
+    top: 0px;
+}
+
+footer {
+    background: whitesmoke;
+    color: #032B43;
+    font-size: x-large;
+    text-align: center;
+}
+
+footer > p {
+    padding: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.contact1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact2{
+    width: 1000px;
+    font-size: x-large;
+    color: ghostwhite;
+    font-weight: bold;
+    background-color: rgba(19, 111, 99, 0.5);
+    padding-left: 75px;
+}
+
+.adresa {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    align-self: center;
+    background-color: rgba(19, 111, 99, 0.5);
+    padding-left: 50px;
+    padding-right: 25px;
+    height: 375px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.a1{
+    font-size: xx-large;
+    color: ghostwhite;
+    font-weight: bold;
+}
+
+.podnaslov {
+    font-weight: bold;
+}
+
+.pocetok.biografija {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.biografijatekst {
+    background-color: rgba(221, 0, 0, 0.5);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.biografijatekst > p:nth-of-type(1){
+    margin:0;
+    font-size: xxx-large;
+}
+
+.biografijatekst > p:nth-of-type(2){
+    font-size: xx-large;
+}
+
+.biografija.opis {
+    width: 1116px;
+    align-self: center;
+    background-color: rgba(139,0,0,0.5);
+}
+
+.biografija.opis > p {
+    color: white;
+    font-size: x-large;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.obr.paragraph1 , .obr.paragraph3{
+    display: flex;
+    width: 1150px;
+    background-color: rgba(255, 186, 8, 0.5);
+    color: white;
+    align-self: center;
+    padding: 10px;
+}
+
+.obr.paragraph1 >div, .obr.paragraph3 >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.obr.paragraph1 > div > p, .obr.paragraph2 > div > p, .obr.paragraph3 > div > p{
+    font-size: x-large;
+    margin-top: 0;
+}
+
+.obr.paragraph2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1150px;
+    background-color: rgba(255, 186, 8, 0.5);
+    color: white;
+    align-self: center;
+    padding: 10px;
+}
+
+.obr.paragraph2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.proekti.paragraph1 , .proekti.paragraph2{
+    display: flex;
+    width: 1150px;
+    background-color: rgba(63, 136, 197, 0.8);
+    color: white;
+    align-self: center;
+    padding: 10px;
+}
+
+.proekti.paragraph1 > div, .proekti.paragraph2 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proekti.paragraph1 > div > p, .proekti.paragraph2 > div > p{
+    font-size: x-large;
+    margin-top: 0;
+}
+
+.proekti.paragraph2{
+    flex-direction: row-reverse;
+}
+
+.proekti.paragraph2 > div {
+    margin-left: 10px;
+}
